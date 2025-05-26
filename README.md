@@ -32,23 +32,12 @@ Frontend: https://artbot-ai.netlify.app
 
 Backend API: https://artbot-ai-image-generator.onrender.com
 
-# 🏗️ Project Structure
+# 🏗️ Project link
+# frontend 
+client ([https://github.com/ArivazhaganPandiyan/ArtBot---AI-image-generation/tree/main/client])
+# backend
+server ([https://github.com/ArivazhaganPandiyan/ArtBot---AI-image-generation/tree/main/server])
 
-artbot/
-├── client/                  # React Frontend
-│   ├── src/
-│   │   ├── assets/          # Static assets
-│   │   ├── components/      # Reusable components
-│   │   ├── context/         # App state context
-│   │   ├── pages/           # Page-level components
-│   │   └── App.jsx          # Root React component
-│
-├── server/                  # Node.js + Express Backend
-│   ├── controllers/         # Route logic
-│   ├── middleware/          # JWT auth middleware
-│   ├── models/              # Mongoose schemas
-│   ├── routes/              # API routes
-│   └── server.js            # Server entry point
 
 
 # 🔧 Installation & Setup
