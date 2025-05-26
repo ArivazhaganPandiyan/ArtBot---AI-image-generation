@@ -34,16 +34,15 @@ Backend API: https://artbot-ai-image-generator.onrender.com
 
 # 🏗️ Project link
 # frontend 
-client ([https://github.com/ArivazhaganPandiyan/ArtBot---AI-image-generation/tree/main/client])
+client https://github.com/ArivazhaganPandiyan/ArtBot---AI-image-generation/tree/main/client
 # backend
-server ([https://github.com/ArivazhaganPandiyan/ArtBot---AI-image-generation/tree/main/server])
-
-
+server https://github.com/ArivazhaganPandiyan/ArtBot---AI-image-generation/tree/main/server
 
 # 🔧 Installation & Setup
 #  Clone the Repository
 
 git clone https://github.com/ArivazhaganPandiyan/artbot-ai-image-generation.git
+
 cd artbot-ai-image-generation
 
 #  Configure Environment Variables
@@ -127,5 +126,5 @@ Endpoint	           Method	  Description
 
 # 📬 Contact
 Arivazhagan Pandiyan
-🔗 GitHub[https://github.com/ArivazhaganPandiyan]
+🔗 GitHub https://github.com/ArivazhaganPandiyan
 
