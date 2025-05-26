@@ -1,11 +1,9 @@
-ArtBot - AI Image Generator
-Turn your imagination into stunning visuals with ArtBot, a full-stack MERN application that transforms text prompts into AI-generated artwork using the Clipdrop API. Complete with secure authentication, credit management, and Stripe integration, ArtBot offers a seamless and user-friendly creative experience.
+ # ArtBot - AI Image Generator
+ Turn your imagination into stunning visuals with ArtBot, a full-stack MERN application that transforms text prompts into AI-generated artwork using the Clipdrop API. Complete with secure authentication, credit management, and Stripe integration, ArtBot offers a seamless and user-friendly creative experience.
 
+# 🌟 Features :
 
-
-
-🌟 Features
-✨ Core Functionality
+# ✨ Core Functionality
 🔥 AI-Powered Image Generation (via Clipdrop API)
 
 🔐 User Authentication with JWT (Register/Login)
@@ -16,7 +14,7 @@ Turn your imagination into stunning visuals with ArtBot, a full-stack MERN appli
 
 💾 Download Generated Images to your local system
 
-🛠 Technical Highlights
+# 🛠 Technical Highlights
 🧱 MERN Stack – MongoDB, Express.js, React.js, Node.js
 
 🛡 JWT Auth & Protected Routes – Secured with middleware
@@ -29,12 +27,12 @@ Turn your imagination into stunning visuals with ArtBot, a full-stack MERN appli
 
 🌍 Context API – Efficient global state management
 
-🚀 Live Demo
+# 🚀 Live Demo
 Frontend: https://artbot-ai.netlify.app
 
 Backend API: https://artbot-ai-image-generator.onrender.com
 
-🏗️ Project Structure
+# 🏗️ Project Structure
 
 artbot/
 ├── client/                  # React Frontend
@@ -53,23 +51,24 @@ artbot/
 │   └── server.js            # Server entry point
 
 
-🔧 Installation & Setup
-1. Clone the Repository
+# 🔧 Installation & Setup
+#  Clone the Repository
 
 git clone https://github.com/ArivazhaganPandiyan/artbot-ai-image-generation.git
 cd artbot-ai-image-generation
 
-2. Configure Environment Variables
+#  Configure Environment Variables
 server/.env
 PORT=4000
 MONGODB_URL="your_mongodb_connection_string"
 JWT_SECRET="your_jwt_secret"
 CLIPDROP_API="your_clipdrop_api_key"
 STRIPE_SECRET_KEY="your_stripe_secret_key"
+
 client/.env
 VITE_BACKEND_URL="http://localhost:4000"
 
-3. Install Dependencies
+# Install Dependencies
 # Backend
 cd server
 npm install
@@ -78,7 +77,7 @@ npm install
 cd ../client
 npm install
 
-4. Run the Application
+# Run the Application
 # Run backend
 cd server
 npm run dev
@@ -87,14 +86,14 @@ npm run dev
 cd ../client
 npm run dev
 
-📚 API Endpoints
-🔐 Authentication
+# 📚 API Endpoints
+# 🔐 Authentication
 Endpoint	           Method	  Description
 /api/user/register	 POST	    Register new user
 /api/user/login      POST 	  Authenticate user
 /api/user/profile	   GET	    Get logged-in user’s data (Protected)
 
-Image Generation
+# Image Generation
 Endpoint	           Method	  Description
 /api/image/generate	 POST	    Generate AI image from text input (Protected)
 
@@ -103,11 +102,11 @@ Request Body Example:
   "prompt": "A futuristic city skyline at sunset"
 }
 
-👤 User Management
+# 👤 User Management
 Endpoint	           Method	  Description
 /api/user/credits	   GET	    Retrieve user credit balance
 
-🛒 Stripe Integration
+# 🛒 Stripe Integration
 📦 Multiple credit plans
 
 🔐 Secure payment handling
@@ -116,19 +115,20 @@ Endpoint	           Method	  Description
 
 🚨 Error handling with real-time notifications
 
-🌈 Screenshots
+# 🌈 Screenshots
 
-🔐 Authentication 
+# 🔐 Authentication 
 ![image](https://github.com/user-attachments/assets/1e2809d7-fc77-44cd-b29a-2b39a61884dd)
 ![image](https://github.com/user-attachments/assets/fe1092b5-1cd7-41a6-85b1-d08d434ba51d)
-🏠 Homepage
+# 🏠 Homepage
 ![Screenshot 2025-05-23 165338](https://github.com/user-attachments/assets/6ac3e894-435d-4408-99cf-c64602c4b4b6)
-🎨 Image Generation
+# 🎨 Image Generation
 ![image](https://github.com/user-attachments/assets/6e3e1139-60fb-4ecb-a9f9-d31c51d85dc1)
-💰 Credits Management
+# 💰 Credits Management
 ![image](https://github.com/user-attachments/assets/61b818bc-5f1a-4428-b3bb-1e433aca73e1)
 
 
-📬 Contact
+# 📬 Contact
 Arivazhagan Pandiyan
-🔗 GitHub
+🔗 GitHub(https://github.com/arivazhagan-pandian)
+
