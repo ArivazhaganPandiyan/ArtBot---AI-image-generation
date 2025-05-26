@@ -138,5 +138,5 @@ Endpoint	           Method	  Description
 
 # 📬 Contact
 Arivazhagan Pandiyan
-🔗 GitHub(https://github.com/arivazhagan-pandian)
+🔗 GitHub[https://github.com/ArivazhaganPandiyan]
 
