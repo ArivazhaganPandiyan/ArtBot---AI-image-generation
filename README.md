@@ -88,13 +88,19 @@ npm run dev
 
 # 📚 API Endpoints
 # 🔐 Authentication
+
 Endpoint	           Method	  Description
+
 /api/user/register	 POST	    Register new user
+
 /api/user/login      POST 	  Authenticate user
+
 /api/user/profile	   GET	    Get logged-in user’s data (Protected)
 
 # Image Generation
+
 Endpoint	           Method	  Description
+
 /api/image/generate	 POST	    Generate AI image from text input (Protected)
 
 Request Body Example:
@@ -103,7 +109,9 @@ Request Body Example:
 }
 
 # 👤 User Management
+
 Endpoint	           Method	  Description
+
 /api/user/credits	   GET	    Retrieve user credit balance
 
 # 🛒 Stripe Integration
